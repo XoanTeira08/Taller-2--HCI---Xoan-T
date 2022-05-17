@@ -1,0 +1,136 @@
+﻿* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+    *:focus {
+        outline: none;
+    }
+
+body {
+    font-family: Arial;
+    background-image: url('Img/fondo2.jpg');
+    padding: 50px;
+}
+/*############# LOGIN #################*/
+.login {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.login-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px
+}
+
+.app-title {
+    text-align: center;
+    color: #000000;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.control-group {
+    margin-bottom: 10px;
+}
+.usuario-icono{
+    height:50px;
+    width:50px;
+}
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+    input:focus {
+        border: 2px solid #3498DB;
+        box-shadow: none;
+    }
+
+.btn {
+    border: 2px solid transparent;
+    background: #444;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 20px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+    .btn:hover {
+        background-color: #2980B9;
+    }
+
+.login-link {
+    font-size: 12px;
+    color: #444;
+    display: block;
+    margin-top: 12px;
+}
+/*#########################################*/
+/*############### ENCABEZADO###############*/
+.encabezado {
+    margin: 1%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 35px;
+    background-color: #444;
+    border-radius: 25px;
+}
+.titulo{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #FFF;
+    text-shadow: 3px 5px 5px #000000;
+}
+.logo {
+    float: left;
+    width: 175px;
+    height: 175px;
+}
+/*############### IMAGENES AGREGAR Y VER #########*/
+.enlaces{
+    margin-top:35px;
+}
+.agregar{
+    float:left;
+    text-align:center;
+    margin-right:225px;
+}
+.ver{
+    float:left;
+    text-align:center;
+}
+.enlaces a:visited{
+    color:black;
+}
+.enlaces a:link{
+    color: black;
+}
+
+.enlaces a:hover{
+    color:#808080;
+}
+
